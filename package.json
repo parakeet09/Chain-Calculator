@@ -1,8 +1,8 @@
 {
-  "name": "video-editor",
+  "name": "chain-calculator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:/parakeet09.github.io/videoEditor",
+  "homepage": "https:/parakeet09.github.io/Chain-Calculator",
   "dependencies": {
     "@ffmpeg/core": "^0.12.6",
     "@ffmpeg/ffmpeg": "^0.12.10",
