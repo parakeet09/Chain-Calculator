@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/parakeet09.github.io/Chain-Calculator/static/css/main.800b4e8b.css",
+    "main.js": "/parakeet09.github.io/Chain-Calculator/static/js/main.39ee9313.js",
+    "static/js/453.d1923110.chunk.js": "/parakeet09.github.io/Chain-Calculator/static/js/453.d1923110.chunk.js",
+    "index.html": "/parakeet09.github.io/Chain-Calculator/index.html",
+    "main.800b4e8b.css.map": "/parakeet09.github.io/Chain-Calculator/static/css/main.800b4e8b.css.map",
+    "main.39ee9313.js.map": "/parakeet09.github.io/Chain-Calculator/static/js/main.39ee9313.js.map",
+    "453.d1923110.chunk.js.map": "/parakeet09.github.io/Chain-Calculator/static/js/453.d1923110.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.800b4e8b.css",
+    "static/js/main.39ee9313.js"
+  ]
+}
