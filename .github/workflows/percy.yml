@@ -37,7 +37,7 @@ jobs:
 
       # 7️⃣ Run Percy snapshot
       - name: Percy snapshot
-        uses: percy/exec-action@main
+        uses: percy/exec-action@v0.3.1
         with:
           command: npx percy snapshot snapshots.yml
         env:
