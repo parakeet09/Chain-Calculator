@@ -3,6 +3,7 @@ export const evaluateEquation = (equation: string, x: number): number => {
     .replace(/\^/g, "**")
     .replace(/([0-9]*)x/g, (match, p1) => `${p1 ? p1 : 1}*${x}`)
     .replace(/x/g, x.toString());
+  // eslint-disable-next-line no-eval
   return eval(formattedEquation);
 };
 
