@@ -58,14 +58,14 @@ const FunctionChainCalculator: React.FC = () => {
       <h1 className="text-2xl font-bold mb-4">Function Chain Calculator</h1>
       <button
         onClick={() => setIsEditingChain(!isEditingChain)}
-        className="mb-4 px-4 py-2 bg-gray-500 text-white rounded-md"
+        className="mb-4 px-4 py-2 bg-red-500 text-white rounded-md"
       >
         {isEditingChain ? "Disable Editing Chain" : "Enable Editing Chain"}
       </button>
       <ReactFlow
         nodes={nodes}
         edges={edges}
-        style={{ width: "100%", height: "800px" }}
+        style={{ width: "100%", height: "600px" }}
       >
         <Background />
         <Controls />
