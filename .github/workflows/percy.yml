@@ -42,3 +42,7 @@ jobs:
           command: npx percy snapshot snapshots.yml
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+            # For a PR event, head_ref is your feature branch name
+          PERCY_BRANCH: ${{ github.head_ref }}
+          # base_ref is the branch you’re merging into (“main”)
+          PERCY_TARGET_BRANCH: ${{ github.base_ref }}
