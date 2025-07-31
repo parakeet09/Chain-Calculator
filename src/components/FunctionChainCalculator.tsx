@@ -58,9 +58,9 @@ const FunctionChainCalculator: React.FC = () => {
       <h1 className="text-2xl font-bold mb-4">Function Chain Calculator</h1>
       <button
         onClick={() => setIsEditingChain(!isEditingChain)}
-        className="mb-4 px-4 py-2 bg-red-500 text-white rounded-md"
+        className="mb-4 px-4 py-2 bg-blue-500 text-white rounded-md"
       >
-        {isEditingChain ? "Disable Editing Chain" : "Enable Editing Chain"}
+        {isEditingChain ? "Disable Editing Chain Test" : "Enable Editing Chain Test"}
       </button>
       <ReactFlow
         nodes={nodes}
